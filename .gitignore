@@ -1,0 +1,28 @@
+# Ignore all CSV files by default
+*.csv
+# data/
+
+# Option to manually include specific data files or the entire folder
+# by adding exceptions below. For example, uncomment to include:
+# !data/important_file.csv
+# !data/txs_features.csv
+
+# Ignore other typical file types and folders
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+.DS_Store
+.env
+.vscode/
+
+# Exclude environment and dependency files
+*.env
+*.DS_Store
+
+# Ignore model outputs and temporary files
+outputs/
+*.h5
+*.ckpt
+*.pkl
+*.log
