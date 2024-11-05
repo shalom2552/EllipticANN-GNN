@@ -24,5 +24,39 @@
    ```bash
    git clone https://github.com/your-username/EllipticANN-GNN.git
 
+**DATASET CAN BE FOUND HERE: [Google Drive](https://drive.google.com/drive/folders/1MRPXz79Lu_JGLlJ21MDfML44dKN9R08l?usp=sharing)**
+
+## Dataset Summary 
+
+The Elliptic++ dataset contains a transactions dataset and an actors (wallet addresses) dataset.
+
+Elliptic++ Transactions Dataset:
+
+|  |  |
+|---|---|
+| # Nodes (transactions) | 203,769 |
+| # Edges (money flow) | 234,355 |
+| # Time steps | 49 |
+| # Illicit (class-1) | 4,545 |
+| # Licit (class-2) | 42,019 |
+| # Unknown (class-3) | 157,205 |
+| # Features | 183 |
+
+Elliptic++ Actors (Wallet Addresses) Dataset:
+
+|  |  |
+|---|---|
+| # Wallet addresses | 822,942 |
+| # Nodes (temporal interactions) | 1,268,260 |
+| # Edges (addr-addr) | 2,868,964 |
+| # Edges (addr-tx-addr) | 1,314,241 |
+| # Time steps | 49 |
+| # Illicit (class-1) | 14,266 |
+| # Licit (class-2) | 251,088 |
+| # Unknown (class-3) | 557,588 |
+| # Features | 56 |
+
+ 
+
 ## Original Dataset and Research
 This project is based on the **Elliptic++ Transactions Dataset** published by the **DISL Lab at Georgia Tech**. For the original dataset and research details, please visit the [EllipticPlusPlus GitHub Repository](https://github.com/git-disl/EllipticPlusPlus/tree/main).
