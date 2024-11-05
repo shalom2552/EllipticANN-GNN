@@ -23,3 +23,6 @@
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/EllipticANN-GNN.git
+
+## Original Dataset and Research
+This project is based on the **Elliptic++ Transactions Dataset** published by the **DISL Lab at Georgia Tech**. For the original dataset and research details, please visit the [EllipticPlusPlus GitHub Repository](https://github.com/git-disl/EllipticPlusPlus/tree/main).
